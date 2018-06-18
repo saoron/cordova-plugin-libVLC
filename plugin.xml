@@ -22,7 +22,7 @@
 	
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="VideoPlayerVLC">
-                <param name="android-package" value="com.webmons.disono.libVLC.VideoPlayerVLC"/>
+                <param name="android-package" value="com.libVLC.VideoPlayerVLC"/>
             </feature>
         </config-file>
 		
@@ -34,8 +34,8 @@
             <activity android:name="com.webmons.disono.libVLC.VLCActivity"/>
         </config-file>
 		
-        <source-file src="src/android/com/webmons/disono/libVLC/VideoPlayerVLC.java" target-dir="src/com/webmons/disono/libVLC"/>
-        <source-file src="src/android/com/webmons/disono/libVLC/VLCActivity.java" target-dir="src/com/webmons/disono/libVLC"/>
+        <source-file src="src/android/com/libVLC/VideoPlayerVLC.java" target-dir="src/com/libVLC"/>
+        <source-file src="src/android/com/libVLC/VLCActivity.java" target-dir="src/com/libVLC"/>
 		
 		<resource-file src="src/android/res/layout/vlc_player.xml" target="res/layout/vlc_player.xml" />
 		
