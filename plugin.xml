@@ -31,7 +31,7 @@
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <activity android:name="com.webmons.disono.libVLC.VLCActivity"/>
+            <activity android:name="com.libVLC.VLCActivity"/>
         </config-file>
 		
         <source-file src="src/android/com/libVLC/VideoPlayerVLC.java" target-dir="src/com/libVLC"/>
