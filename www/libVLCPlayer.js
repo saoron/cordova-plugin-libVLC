@@ -6,8 +6,8 @@ libVLCPlayer.play = function(uri, success, failure) {
   exec(success, failure, "VideoPlayerVLC", "play", [
     uri,
     {
-      autoPlay: false,
-      hideControls: false
+      autoPlay: true,
+      hideControls: true
     }
   ]);
 };
