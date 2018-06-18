@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center|center_horizontal"
+    android:layout_gravity="center|center_vertical"
     android:orientation="vertical"
     tools:context="com.webmons.disono.vlcplayer.MainActivity">
 
@@ -11,14 +11,14 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center|center_horizontal">
+        android:layout_gravity="center|center_vertical">
 
         <LinearLayout
             android:id="@+id/mediaPlayerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:layout_gravity="center|center_horizontal"
+            android:layout_gravity="center|center_vertical"
             android:scrollbars="vertical"
             android:orientation="horizontal">
 
