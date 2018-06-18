@@ -1,4 +1,4 @@
-package com.webmons.disono.libVLC;
+package com.libVLC;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -40,7 +40,7 @@ import java.util.TimerTask;
 
 public class VLCActivity extends Activity implements VlcListener, View.OnClickListener {
     private Activity activity;
-    public static final String BROADCAST_LISTENER = "com.webmons.disono.libVLC.Listener";
+    public static final String BROADCAST_LISTENER = "com.libVLC.Listener";
     public final String TAG = "VLCActivity";
 
     SurfaceView surfaceView;
