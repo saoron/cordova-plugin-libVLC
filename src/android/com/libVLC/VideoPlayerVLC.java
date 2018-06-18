@@ -1,4 +1,4 @@
-package com.webmons.disono.libVLC;
+package com.libVLC;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -25,7 +25,7 @@ import org.json.JSONObject;
 
 public class VideoPlayerVLC extends CordovaPlugin {
     private final String TAG = "VideoPlayerVLC";
-    public final static String BROADCAST_METHODS = "com.webmons.disono.libVLC";
+    public final static String BROADCAST_METHODS = "com.libVLC";
 
     private CallbackContext callbackContext;
     BroadcastReceiver br = new BroadcastReceiver() {
